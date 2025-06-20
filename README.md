@@ -1,16 +1,30 @@
-# bhagavad_v3
+# Gita-Sloka
 
-A new Flutter project.
+The latest version of Gita Sloka, the Beta Vesion. The Gita Sloka app is a digital platform that presents the Bhagavad Gita in 18 complete chapters with Sanskrit slokas, Indonesian translations, and audio recitations. The bookmark feature allows users to mark their favorite slokas, while the search feature makes it easy to find specific slokas. This app aims to provide a practical and modern learning and spiritual reflection experience.
 
-## Getting Started
+# Setup Flutter Project
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Make sure Flutter is installed. Check the Flutter version:
+```shell
+flutter --version
+   ```
+3. Clean up the project before starting:
+  ```shell
+  flutter clean
+  ```
+3. Retrieve project dependencies:
+  ```shell
+  flutter pub get
+  ```
+4. Run the app on an emulator or device:
+  ```shell
+  flutter run
+  ```
+5. To build the release APK:
+  ```shell
+  flutter build apk
+  ```
+6. If using iOS, create a build for iOS:
+  ```shell
+  flutter build ios
+```
