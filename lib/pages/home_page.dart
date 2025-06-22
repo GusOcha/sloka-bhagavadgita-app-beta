@@ -108,7 +108,7 @@ class _HomePageState extends State<HomePage> {
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.book), label: 'Sloka'),
           BottomNavigationBarItem(icon: Icon(Icons.bookmark), label: 'Bookmark'),
-          BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Settings'),
+          BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Pengaturan'),
         ],
       ),
     );
